@@ -1,7 +1,7 @@
 # Set environment variables
 export COMPUTE_GROUP?=k3s-cluster
 export STORAGE_GROUP?=k3s-storage
-export LOCATION?=eastus
+export LOCATION?=westeurope
 export MASTER_COUNT?=1
 export AGENT_COUNT?=3
 export MASTER_FQDN=$(COMPUTE_GROUP)-master0.$(LOCATION).cloudapp.azure.com
