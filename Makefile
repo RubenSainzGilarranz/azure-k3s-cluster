@@ -1,6 +1,6 @@
 # Set environment variables
-export COMPUTE_GROUP?=k3s-cluster
-export STORAGE_GROUP?=k3s-storage
+export COMPUTE_GROUP?=ClusterK3sRG
+export STORAGE_GROUP?=ClusterK3sRG
 export LOCATION?=westeurope
 export MASTER_COUNT?=1
 export AGENT_COUNT?=3
